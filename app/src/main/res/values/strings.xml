@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Embedding Space Explorer</string>
+
+    <!-- tabs -->
+    <string name="tab_map">Map</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- content descriptions -->
+    <string name="cd_close">Close</string>
+    <string name="cd_back">Back</string>
+
+    <!-- actions -->
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete_demo">Delete demo images</string>
+    <string name="action_delete_demo_short">Delete demo</string>
+    <string name="action_delete_mine">Delete everything I added</string>
+    <string name="demo_hint">These are demo images. Delete them in Settings when you want to use your own.</string>
+    <string name="confirm_delete_demo">Delete all demo images for good?</string>
+    <string name="confirm_delete_mine">Delete everything you added for good?</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">Cancel</string>
+    <string name="action_download">Download</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+
+    <!-- badges and short labels -->
+    <string name="badge_guess">guess</string>
+    <string name="badge_tentative">tentative</string>
+    <string name="credit_line">%1$s, %2$s</string>
+    <string name="caption_your_items">your items</string>
+
+    <!-- map -->
+    <string name="search_hint">Search the map</string>
+    <string name="search_matches">%1$d matches</string>
+    <string name="search_needs_model">Needs EmbeddingGemma 2 for new words</string>
+    <string name="toast_new_island">New island started</string>
+    <string name="toast_joined">Joined %1$s</string>
+    <string name="job_slow">slow</string>
+    <string name="stage_queued">Waiting</string>
+    <string name="stage_prepare">Preparing</string>
+    <string name="stage_embed">EmbeddingGemma 2</string>
+    <string name="stage_place">Placing</string>
+    <string name="stage_done">Done</string>
+    <string name="stage_failed">Retry</string>
+
+    <!-- empty states -->
+    <string name="empty_map">Nothing here yet</string>
+
+    <!-- add -->
+    <string name="add_title">Add to the map</string>
+    <string name="add_photo_video">Photo or video</string>
+    <string name="add_camera">Camera</string>
+    <string name="add_audio_file">Audio file</string>
+    <string name="add_record">Record</string>
+    <string name="add_note">Note</string>
+    <string name="note_hint">Write a note</string>
+    <string name="download_wifi">Best on Wi-Fi</string>
+    <string name="download_failed">The EmbeddingGemma 2 download stopped. Pick up where it left off.</string>
+
+    <!-- settings -->
+    <string name="section_look">Look</string>
+    <string name="section_data">Data</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="model_name">EmbeddingGemma 2</string>
+    <string name="model_failed">Download paused</string>
+    <string name="confirm_delete_model">Delete EmbeddingGemma 2 from this phone?</string>
+
+    <!-- about -->
+    <string name="about_title">About</string>
+    <string name="about_model">EmbeddingGemma 2 (Apache 2.0) makes the embeddings. It runs on this phone through LiteRT-LM (Apache 2.0).</string>
+    <string name="about_libs">Built with Kotlin, Jetpack Compose and Room (Apache 2.0). Demo media is CC0 or public domain.</string>
+    <string name="about_demo_credits">Demo media credits</string>
+    <string name="model_ready">EmbeddingGemma 2 is ready</string>
+    <string name="action_download_model">Download EmbeddingGemma 2 (485 MB)</string>
+    <string name="confirm_download">Download EmbeddingGemma 2 (485 MB)? Best on Wi-Fi.</string>
+    <string name="view_space">Space</string>
+    <string name="view_tiles">Tiles</string>
+    <string name="tiles_hint">Type what you are looking for</string>
+    <string name="tiles_none">Nothing close to that yet</string>
+    <string name="tiles_cluster">%1$s, %2$d</string>
+</resources>
